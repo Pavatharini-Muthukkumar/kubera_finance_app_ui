@@ -1,0 +1,9 @@
+SELECT
+  "Booking Date",
+  "Reference Account Name",
+  "Payee",
+  "Purpose",
+  "Amount (€)" as Amount
+FROM transactions
+WHERE "Month" = {{ DropdownMonth.selectedOptionValue || GetLatestMonth.data[0]?.latest_month }}
+ORDER BY "Booking Date" DESC;

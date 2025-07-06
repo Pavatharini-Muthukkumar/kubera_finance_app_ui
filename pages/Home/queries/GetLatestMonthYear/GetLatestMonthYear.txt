@@ -1,0 +1,5 @@
+SELECT "Year", "Month"
+FROM transactions
+WHERE "Analyzed Amount" = 'Expenses'
+ORDER BY "Year" DESC, "Month" DESC
+LIMIT 1;

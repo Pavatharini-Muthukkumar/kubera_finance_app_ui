@@ -1,0 +1,4 @@
+SELECT SUM("Amount (€)") AS total_expenses
+FROM transactions
+WHERE "Analyzed Amount" = 'Expenses'
+AND "Month" = {{ FilterAutoLogic.getFullMonth() }}

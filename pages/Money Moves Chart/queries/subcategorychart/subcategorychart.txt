@@ -1,0 +1,13 @@
+SELECT 
+  "Subcategory",
+  ABS(SUM("Amount (€)")) AS total_spent
+FROM transactions
+WHERE 
+  "Main Category" = '{{ appsmith.store.selectedCategory }}'
+  AND "Month" = '{{ appsmith.store.selectedMonth }}'
+  AND "Analyzed Amount" = 'Expenses'
+  AND "needs_manual_input" IS NOT TRUE
+GROUP BY "Subcategory"
+ORDER BY total_spent DESC;
+
+

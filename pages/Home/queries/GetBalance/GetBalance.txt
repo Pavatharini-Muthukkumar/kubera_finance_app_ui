@@ -1,0 +1,2 @@
+SELECT "Balance (€)" as balance
+ FROM transactions where "idx"=(SELECT max(idx) FROM transactions);

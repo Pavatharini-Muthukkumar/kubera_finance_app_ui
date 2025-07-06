@@ -1,0 +1,11 @@
+SELECT 
+  "Main Category" as mc, 
+  ABS(SUM("Amount (€)")) AS total_spent,
+  COUNT(DISTINCT "Subcategory") AS subcategory_count
+FROM transactions
+WHERE 
+  "Analyzed Amount" = 'Expenses'
+  AND "Month" = {{ DropdownMonth.selectedOptionValue }}
+  AND (needs_manual_input IS FALSE OR needs_manual_input IS NULL)
+GROUP BY "Main Category"
+ORDER BY total_spent DESC;

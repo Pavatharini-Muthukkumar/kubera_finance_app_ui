@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "{{ appsmith.store.selectedNavIndex === 0 \n    ? \"linear-gradient(135deg, #7f7fd5 0%, #86a8e7 100%)\" \n    : \"linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)\" }}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "log-out",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ze4qvb8yub",
+  "leftColumn": 53,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 53,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  storeValue(\"isLoggedIn\", false); \n  navigateTo(\"Logins\", {}, \"SAME_WINDOW\"); \n}}",
+  "parentColumnSpace": 5.9110565185546875,
+  "parentId": "l8h089f2ot",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 57,
+  "topRow": 2,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "kjz9y6rn6l",
+  "widgetName": "logout"
+}

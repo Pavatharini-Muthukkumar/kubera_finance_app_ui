@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "684e936d212cc75f2ad5c7f3_12689ce6-75f3-4ff6-bb4e-0857426ddbf1",
+  "id": "Logins_PageGuard",
+  "unpublishedCollection": {
+    "name": "PageGuard",
+    "pageId": "Logins",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

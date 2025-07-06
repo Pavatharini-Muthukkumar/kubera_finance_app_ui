@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 5,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "buttonColor": "{{ appsmith.store.selectedNavIndex === 0 \n    ? \"linear-gradient(135deg, #7f7fd5 0%, #86a8e7 100%)\" \n    : \"linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)\" }}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "chevron-backward",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2hhi3yvrlw",
+  "leftColumn": 4,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{ navigateTo('Home') }}",
+  "parentColumnSpace": 6.42431640625,
+  "parentId": "7xv5zxtgdv",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 8,
+  "tooltip": "",
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "47zxkj17ys",
+  "widgetName": "IconButton1"
+}

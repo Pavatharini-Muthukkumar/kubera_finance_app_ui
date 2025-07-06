@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 46,
+  "boxShadow": "\"0 2px 8px rgba(0,0,0,0.1)\"\nnone",
+  "buttonColor": "linear-gradient(135deg, #FFD700 0%, #FFB300 100%)\n",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "onClick"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "log-in",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cft1q75cbx",
+  "leftColumn": 46,
+  "minWidth": 50,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{JSObject1.login();}}\n\n{{ \n  storeValue('isLoggedIn', true); \n  navigateTo('Home', {}, 'SAME_WINDOW');\n}}\n",
+  "originalBottomRow": 46,
+  "originalTopRow": 42,
+  "parentColumnSpace": 6.53125,
+  "parentId": "5xlsjtg5jl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 50,
+  "topRow": 42,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ucxk5nn7v1",
+  "widgetName": "IconButton1"
+}

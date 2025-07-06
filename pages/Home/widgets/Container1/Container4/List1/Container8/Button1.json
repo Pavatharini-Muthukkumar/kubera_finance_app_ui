@@ -1,0 +1,59 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "linear-gradient(90deg, #7f7fd5 0%, #86a8e7 50%, #91eac9 100%)",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ekqwgu5xlc",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 3,
+  "needsErrorInfo": false,
+  "onClick": "{{ \n  storeValue('selectedCategory', currentItem.mc); \n storeValue('selectedMonth', DropdownMonth.selectedOptionValue) , navigateTo('Money Moves Chart'); \n}}\n",
+  "parentColumnSpace": 5.3860790729522705,
+  "parentId": "sl20vostmq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "{{\n  ({\n    \"Groceries\": \"🛒\",\n    \"Dining Out\": \"🍽️\",\n    \"Car\": \"🚗\",\n    \"Health\": \"🏥\",\n    \"Housing\": \"🏠\",\n    \"Savings\": \"💰\",\n    \"Shopping\": \"🛍️\",\n    \"Leisure\": \"🎬\",\n    \"Baby\": \"👶\",\n    \"Lifestyle\": \"🧘\",\n    \"Banking\": \"🏦\",\n    \"Income\": \"💸\",\n    \"Government\": \"🏛️\",\n    \"Mobility\": \"🚲\"\n  }[currentItem.mc] || \"❓\")\n  + \" \" + currentItem.mc\n  + \" (\" + currentItem.total_spent.toFixed(2) + \" €)\"\n  + \" | 🔍 \" + currentItem.subcategory_count + \"  insights\"\n}}\n",
+  "topRow": 0,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "fwstjg4t1r",
+  "widgetName": "Button1"
+}

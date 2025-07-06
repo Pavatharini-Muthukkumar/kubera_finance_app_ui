@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "50%",
+  "bottomRow": 18,
+  "boxShadow": "0 4px 20px 0 rgba(255, 215, 0, 0.2)",
+  "defaultImage": "https://i.postimg.cc/qRc1XHnN/kubera-gold-only-transparent.png",
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://i.postimg.cc/rwFKCB0K/kubera-round-icon-transparent.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ui84eg09dq",
+  "leftColumn": 21,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 26,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "parentColumnSpace": 6.53125,
+  "parentId": "5xlsjtg5jl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 43,
+  "topRow": 5,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "e1iomhkkrm",
+  "widgetName": "Image1"
+}

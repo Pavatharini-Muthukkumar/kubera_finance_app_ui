@@ -1,0 +1,1 @@
+SELECT DISTINCT "Month" FROM transactions ORDER BY "Month" DESC;

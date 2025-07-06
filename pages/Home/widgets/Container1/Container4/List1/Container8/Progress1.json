@@ -1,0 +1,39 @@
+{
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "counterClosewise": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fillColor": "#a855f7",
+  "isCanvas": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7rr8l4oku1",
+  "leftColumn": 1,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 5.3860790729522705,
+  "parentId": "sl20vostmq",
+  "parentRowSpace": 10,
+  "progress": "{{\n  (() => {\n    const total = GetCategoryExpenses.data.reduce((sum, i) => sum + i.total_spent, 0);\n    return Math.round(currentItem.total_spent / total * 100);\n  })()\n}}\n",
+  "progressType": "linear",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "showResult": false,
+  "steps": "1",
+  "topRow": 5,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "0gfz3bfj1w",
+  "widgetName": "Progress1"
+}

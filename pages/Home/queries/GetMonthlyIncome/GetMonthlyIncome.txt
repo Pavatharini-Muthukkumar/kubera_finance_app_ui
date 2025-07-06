@@ -1,0 +1,5 @@
+SELECT SUM("Amount (€)") AS total_income
+FROM transactions
+WHERE "Analyzed Amount" = 'Income'
+AND "Month" = {{ FilterAutoLogic.getFullMonth() }}
+

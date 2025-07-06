@@ -1,0 +1,1 @@
+SELECT MAX("Month") AS latest_month FROM transactions;

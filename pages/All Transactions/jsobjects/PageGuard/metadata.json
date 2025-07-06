@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "684e936d212cc75f2ad5c7f3_80e632fd-2c8d-4f96-bae3-8969b77f6851",
+  "id": "All Transactions_PageGuard",
+  "unpublishedCollection": {
+    "name": "PageGuard",
+    "pageId": "All Transactions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
